@@ -57,27 +57,27 @@
 <section class="space-y-6">
 
   <!-- INPUT CARD -->
-  <div class="rounded-3xl bg-white p-6 shadow-xl space-y-4">
+  <div class="rounded-2xl bg-white p-6 shadow-xl space-y-4">
 
     <!-- TITLE -->
-    <div>
+    <!-- <div>
       <h3 class="text-lg font-bold text-gray-800">
         Input Gambar
       </h3>
       <p class="text-sm text-gray-500">
         Upload gambar buah pisang cavendish untuk diprediksi tingkat kematangannya
       </p>
-    </div>
+    </div> -->
 
     <!-- DROPZONE / PREVIEW -->
-    <div class="relative overflow-hidden rounded-2xl border border-dashed border-yellow-400 bg-yellow-50">
+    <div class="relative flex overflow-hidden items-center justify-center rounded-2xl border border-dashed border-yellow-400 bg-yellow-50">
 
       {#if previewUrl}
         <!-- PREVIEW -->
         <img
           src={data ? imageUrl(data.image_path) : previewUrl}
           alt="Preview"
-          class="h-72 w-full object-cover transition"
+          class="h-100 w-100 object-cover transition"
           class:blur-sm={loading}
         />
 
@@ -172,20 +172,20 @@
             <div class="space-y-5">
               <div class="flex items-center justify-between">
                 <span class="text-sm text-gray-500">Status</span>
-                <span class="rounded-full bg-green-100 px-3 py-1 text-sm font-semibold text-green-700">
+                <span class="rounded-full bg-green-100 px-3 py-1 text-md font-semibold text-green-700">
                   {data.status}
                 </span>
               </div>
 
               <div class="flex items-center justify-between">
                 <span class="text-sm text-gray-500">Prediksi</span>
-                <span class="text-lg font-bold capitalize text-gray-800">
+                <span class="text-md font-bold capitalize text-gray-800">
                   {data.prediction.replace("_", " ")}
                 </span>
               </div>
 
               <div>
-                <div class="mb-1 flex items-center justify-between text-sm">
+                <div class="mb-1 flex items-center justify-between text-md">
                   <span class="text-gray-500">Confidence</span>
                   <span class="font-semibold text-gray-700">
                     {(data.confidence * 100).toFixed(2)}%
