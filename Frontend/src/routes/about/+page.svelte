@@ -39,7 +39,7 @@
       <!-- IMAGE -->
     <div class="flex justify-center md:justify-end">
       <img
-        src="/logo.jpeg"
+        src="/logo.jpg"
         alt="Pisang Cavendish"
         class="w-full max-w-md rounded-2xl shadow-xl transition hover:scale-105"
       />

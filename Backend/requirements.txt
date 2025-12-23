@@ -1,6 +1,7 @@
 joblib
-scikit-learn
 numpy
 tensorflow
 gradio
 Pillow
+pymongo
+scikit-learn==1.6.1

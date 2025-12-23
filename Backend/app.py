@@ -1,6 +1,9 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 from fastapi import FastAPI, UploadFile, File, HTTPException
 import tempfile
-import os
 import uuid
 from pathlib import Path
 from datetime import datetime
