@@ -1,3 +1,7 @@
+<script>
+  import { t } from '$lib/i18n.js';
+</script>
+
 <footer class="bg-yellow-100 border-t border-yellow-200">
   <div class="mx-auto max-w-7xl px-6 py-12">
 
@@ -10,35 +14,34 @@
           Pisang Cavendish
         </h2>
         <p class="text-sm text-gray-600 leading-relaxed">
-          Sistem klasifikasi tingkat kematangan buah pisang Cavendish
-          berbasis <span class="font-medium">Deep Learning</span>.
+          {$t('footer.brand_desc')}
         </p>
       </div>
 
       <!-- NAVIGATION -->
       <div>
         <h3 class="mb-4 text-sm font-semibold uppercase tracking-wide text-green-800">
-          Navigasi
+          {$t('footer.navigation')}
         </h3>
         <ul class="space-y-2 text-sm text-gray-700">
           <li>
             <a href="/" class="hover:text-green-700 transition">
-              Home
+              {$t('footer.home')}
             </a>
           </li>
           <li>
             <a href="/about" class="hover:text-green-700 transition">
-              Tentang
+              {$t('footer.about')}
             </a>
           </li>
           <li>
             <a href="/classification" class="hover:text-green-700 transition">
-              Klasifikasi
+              {$t('footer.classification')}
             </a>
           </li>
           <li>
             <a href="/history" class="hover:text-green-700 transition">
-              Riwayat
+              {$t('footer.history')}
             </a>
           </li>
         </ul>
@@ -47,7 +50,7 @@
       <!-- INFO -->
       <div>
         <h3 class="mb-4 text-sm font-semibold uppercase tracking-wide text-green-800">
-          Informasi
+          {$t('footer.information')}
         </h3>
         <ul class="space-y-2 text-sm text-gray-700">
           <li>Universitas Nusa Putra</li>
@@ -63,10 +66,10 @@
     <!-- BOTTOM -->
     <div class="flex flex-col items-center justify-between gap-4 text-sm text-gray-600 md:flex-row">
       <p>
-        &copy; {new Date().getFullYear()} Klasifikasi Kematangan Pisang Cavendish
+        &copy; {new Date().getFullYear()} {$t('footer.copyright')}
       </p>
       <p class="text-gray-500">
-        Dibuat oleh <span class="font-medium text-gray-700">Kelompok 1</span>
+        {$t('footer.made_by')} <span class="font-medium text-gray-700">{$t('footer.group')}</span>
       </p>
     </div>
   </div>

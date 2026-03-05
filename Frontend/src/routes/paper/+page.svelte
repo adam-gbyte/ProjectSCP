@@ -1,20 +1,12 @@
+<script>
+	import { t } from '$lib/i18n.js';
+</script>
+
 <svelte:head>
-	<title>Preview Dokumen</title>
+	<title>{$t('paper.title')} | Cavendish</title>
 </svelte:head>
 
 <div class="flex min-h-screen flex-col bg-gray-50">
-	<!-- Toolbar -->
-	<!-- <header class="flex items-center justify-between bg-white px-6 py-4 shadow-sm">
-		<h1 class="text-xl font-semibold text-gray-700">📄 Preview Dokumen</h1>
-		<a
-			href="/sample.pdf"
-			download
-			class="rounded-lg bg-blue-600 px-4 py-2 text-white transition hover:bg-blue-700"
-		>
-			Unduh PDF
-		</a>
-	</header> -->
-
 	<!-- PDF Viewer -->
 	<main class="flex-1 p-6">
 		<div class="mx-auto max-w-6xl overflow-hidden rounded-2xl bg-white shadow-lg">

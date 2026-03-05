@@ -4,19 +4,19 @@
 
 	let { children } = $props();
 
-  import Navbar from "$lib/components/Navbar.svelte";
-  import Footer from "$lib/components/Footer.svelte";
+	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
-  <title>Pisang Cavendish</title>
+	<link rel="icon" href={favicon} />
+	<title>Cavendish</title>
 </svelte:head>
 
 <Navbar />
 
 <main class="pt-16">
-  {@render children()}
+	{@render children()}
 </main>
 
-<Footer /> 
+<Footer />
