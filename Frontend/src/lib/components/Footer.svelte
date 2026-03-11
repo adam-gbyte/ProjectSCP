@@ -55,7 +55,7 @@
         <ul class="space-y-2 text-sm text-gray-700">
           <li>Universitas Nusa Putra</li>
           <li>Teknik Informatika</li>
-          <li>Tugas Metodologi Penelitian</li>
+          <!-- <li>Tugas Metodologi Penelitian</li> -->
         </ul>
       </div>
     </div>

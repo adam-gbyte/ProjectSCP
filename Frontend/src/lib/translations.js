@@ -17,7 +17,7 @@ export const translations = {
             history: 'Riwayat',
             copyright: 'Klasifikasi Kematangan Pisang Cavendish',
             made_by: 'Dibuat oleh',
-            group: 'Kelompok 1'
+            group: 'Kelompok 1 ICITACS'
         },
         home: {
             title: 'Klasifikasi Kematangan',
@@ -36,7 +36,7 @@ export const translations = {
             p1: 'Sistem ini dirancang untuk membantu petani dan pelaku agribisnis dalam menentukan tingkat kematangan buah pisang Cavendish secara cepat dan akurat menggunakan pendekatan',
             p2: 'digunakan untuk mengekstraksi fitur citra buah, kemudian diklasifikasikan menggunakan algoritma',
             p2_into: 'ke dalam lima kelas kematangan:',
-            classes: 'mentah, setengah matang, hampir matang, matang, dan sangat matang.',
+            classes: 'mentah 100%, setengah matang 92%, hampir matang 92%, matang 97%, dan sangat matang 97%',
             tech_title: 'Teknologi yang Digunakan',
             tech_desc: 'Arsitektur sistem dan teknologi pendukung'
         },
@@ -83,7 +83,7 @@ export const translations = {
             history: 'History',
             copyright: 'Cavendish Banana Ripeness Classification',
             made_by: 'Created by',
-            group: 'Group 1'
+            group: 'Group 1 ICITACS'
         },
         home: {
             title: 'Ripeness Classification',
@@ -102,7 +102,7 @@ export const translations = {
             p1: 'This system is designed to help farmers and agribusiness players determine the ripeness level of Cavendish bananas quickly and accurately using a',
             p2: 'is used to extract image features of the fruit, then classified using the',
             p2_into: 'algorithm into five ripeness classes:',
-            classes: 'unripe, half-ripe, nearly ripe, ripe, and overripe.',
+            classes: 'unripe 100%, half-ripe 92%, nearly ripe 92%, ripe 97%, and overripe 97%',
             tech_title: 'Technologies Used',
             tech_desc: 'System architecture and supporting technologies'
         },
