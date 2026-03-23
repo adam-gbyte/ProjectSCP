@@ -102,7 +102,7 @@
 								item.prediction
 							)}`}
 						>
-							{item.prediction.replace('_', ' ')}
+							{item.prediction.replace('_', ' ')} test
 						</span>
 
 						<!-- Hover Content -->

@@ -9,6 +9,9 @@ export const translations = {
         },
         footer: {
             brand_desc: 'Sistem klasifikasi tingkat kematangan buah pisang Cavendish berbasis Deep Learning.',
+            title: 'Pisang Cavendish',
+            unv: 'Universitas Nusa Putra',
+            prod: 'Teknik Informatika',
             navigation: 'Navigasi',
             information: 'Informasi',
             home: 'Beranda',
@@ -75,6 +78,9 @@ export const translations = {
         },
         footer: {
             brand_desc: 'A Deep Learning-based classification system for Cavendish banana ripeness levels.',
+            title: 'Cavendish Banana',
+            unv: 'Nusa Putra University',
+            prod: 'Informatics Engineering',
             navigation: 'Navigation',
             information: 'Information',
             home: 'Home',

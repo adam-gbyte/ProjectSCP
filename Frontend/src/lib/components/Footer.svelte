@@ -11,7 +11,7 @@
       <!-- BRAND -->
       <div class="space-y-3">
         <h2 class="text-xl font-extrabold text-green-900">
-          Pisang Cavendish
+          {$t('footer.title')}
         </h2>
         <p class="text-sm text-gray-600 leading-relaxed">
           {$t('footer.brand_desc')}
@@ -53,8 +53,8 @@
           {$t('footer.information')}
         </h3>
         <ul class="space-y-2 text-sm text-gray-700">
-          <li>Universitas Nusa Putra</li>
-          <li>Teknik Informatika</li>
+          <li>{$t('footer.unv')}</li>
+          <li>{$t('footer.prod')}</li>
           <!-- <li>Tugas Metodologi Penelitian</li> -->
         </ul>
       </div>
