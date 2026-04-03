@@ -19,7 +19,7 @@
 	});
 
 	function imageUrl(path) {
-		return `http://localhost:8000/${path.replaceAll('\\', '/')}`;
+		return `https://api.adam-gbyte.my.id/${path.replaceAll('\\', '/')}`;
 	}
 
 	function formatDate(date) {
@@ -28,11 +28,11 @@
 
 	function badgeColor(label) {
 		const map = {
-			mentah: 'bg-red-500',
-			hampir_matang: 'bg-yellow-500',
-			setengah_matang: 'bg-orange-500',
-			matang_sempurna: 'bg-green-500',
-			sangat_matang: 'bg-emerald-500'
+			0: 'bg-yellow-500', // hampir_matang
+			1: 'bg-green-500', // matang_sempurna
+			2: 'bg-red-500', // mentah
+			3: 'bg-emerald-500', // sangat_matang
+			4: 'bg-orange-500' // setengah_matang
 		};
 		return map[label] ?? 'bg-gray-500';
 	}
@@ -102,7 +102,7 @@
 								item.prediction
 							)}`}
 						>
-							{item.prediction.replace('_', ' ')} test
+							{$t('labels.' + item.prediction)}
 						</span>
 
 						<!-- Hover Content -->

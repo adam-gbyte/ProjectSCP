@@ -2,7 +2,7 @@ export async function predictImage(file) {
   const formData = new FormData();
   formData.append("file", file);
 
-  const res = await fetch("http://127.0.0.1:8000/predict", {
+  const res = await fetch("https://api.adam-gbyte.my.id/predict", {
     method: "POST",
     body: formData
   });
@@ -15,7 +15,7 @@ export async function predictImage(file) {
 }
 
 export async function fetchPredictions() {
-  const res = await fetch("http://localhost:8000/predictions");
+  const res = await fetch("https://api.adam-gbyte.my.id/predictions");
 
   if (!res.ok) {
     throw new Error("Gagal mengambil data riwayat");

@@ -170,7 +170,7 @@
 							<div class="flex items-center justify-between">
 								<span class="text-sm text-gray-500">{$t('classification.prediction')}</span>
 								<span class="text-md font-bold text-gray-800 capitalize">
-									{data.prediction.replace('_', ' ')}
+									{$t('labels.' + data.prediction)}
 								</span>
 							</div>
 

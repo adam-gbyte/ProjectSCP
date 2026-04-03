@@ -66,6 +66,13 @@ export const translations = {
         paper: {
             title: 'Preview Dokumen',
             download: 'Unduh PDF'
+        },
+        labels: {
+            0: 'Hampir Matang',
+            1: 'Matang Sempurna',
+            2: 'Mentah',
+            3: 'Sangat Matang',
+            4: 'Setengah Matang'
         }
     },
     en: {
@@ -135,6 +142,13 @@ export const translations = {
         paper: {
             title: 'Document Preview',
             download: 'Download PDF'
+        },
+        labels: {
+            0: 'Nearly Ripe',
+            1: 'Ripe',
+            2: 'Unripe',
+            3: 'Overripe',
+            4: 'Half Ripe'
         }
     }
 };

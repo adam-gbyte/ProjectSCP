@@ -16,11 +16,11 @@ from src.database.mongo import prediction_collection
 app = FastAPI()
 
 label_map = {
-    0: "hampir_matang",
-    1: "matang_sempurna",
-    2: "mentah",
-    3: "sangat_matang",
-    4: "setengah_matang",
+    0: 0,
+    1: 1,
+    2: 2,
+    3: 3,
+    4: 4,
 }
 
 @app.get("/")
